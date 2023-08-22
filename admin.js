@@ -21,3 +21,5 @@ async function init(){
     console.log("disconnecting admin")
     await admin.disconnect();
 }
+
+init();

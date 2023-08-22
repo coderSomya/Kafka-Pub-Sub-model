@@ -1,9 +1,4 @@
-const {Kafka} = require("kafkajs")
-
-const kafka = new Kafka({
-    clientId: 'my-app',
-    brokers:['http://localhost:9092']
-});
+const {kafka} = require("./client")
 
 async function init(){
     const admin= kafka.admin();

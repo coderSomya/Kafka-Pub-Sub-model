@@ -1,0 +1,22 @@
+{
+  "name": "kafka-pub-sub-model",
+  "version": "1.0.0",
+  "description": "Building a realtime server for implementing a pub-sub queuing architecture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderSomya/Kafka-Pub-Sub-model.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderSomya/Kafka-Pub-Sub-model/issues"
+  },
+  "homepage": "https://github.com/coderSomya/Kafka-Pub-Sub-model#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
